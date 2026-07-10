@@ -23,6 +23,7 @@
             <h1>İletişim</h1>
         </div>
     </div>
+
     <div class="row">
         <div class="col-6">
             <p><strong>Adres:</strong> Sabancı Üniversitesi, Tuzla 34956 İstanbul</p>
@@ -30,7 +31,36 @@
             <p><strong>E-posta:</strong> <a href="mailto:liseyazokulu@sabanciuniv.edu">liseyazokulu@sabanciuniv.edu</a></p>
         </div>
         <div class="col-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.1278904973856!2d29.37576237638195!3d40.891009426637034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad90054a65b83%3A0x58811469343d9017!2sSabanc%C4%B1%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1783678439450!5m2!1str!2str" width="600" height="450"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.1278904973856!2d29.37576237638195!3d40.891009426637034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad90054a65b83%3A0x58811469343d9017!2sSabanc%C4%B1%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1783678439450!5m2!1str!2str" width="600" height="250"></iframe>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <form method="get" action="iletisim.html">
+                <div class="mb-3">
+                    <label class="form-label">Ad:</label> 
+                    <input type="text" class="form-control" id="ad" placeholder="Lütfen adınızı yazın.">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Soyad:</label> 
+                    <input type="text" class="form-control" id="soyad" placeholder="Lütfen soyadınızı yazın.">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Şehir:</label> 
+                    <select class="form-select">
+                        <option>İstanbul</option>
+                        <option>Adana</option>
+                        <option>Balıkesir</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <input type="checkbox" value="onay" class="form-check-input"> LYO süresince yurtlarda kalmak istiyorum.
+                </div>
+
+                <input type="submit" value="Gönder" class="btn btn-primary">
+
+            </form>
         </div>
     </div>
 </div>
