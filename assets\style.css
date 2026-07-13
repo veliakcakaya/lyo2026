@@ -1,1 +1,22 @@
+.renk-turkuaz {
+    background-color: #9BEDFB;
+    color:#333;
+}
+.renk-acik-mavi {
+    background-color: #D7E3FF;
+}
+.renk-turuncu {
+    background-color: #FFE2C8;
+}
+.renk-yesil {
+    background-color: #61EFDD;
+}
+.renk-lacivert {
+    background-color: #002575; 
+    color: white;
+}
 
+.aciklama p{
+    font-size: 18px;
+    font-weight: lighter;
+}
